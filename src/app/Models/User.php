@@ -41,4 +41,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+// てすと
+    const STATUS = [
+        0 => '仮会員',
+        1 => '本会員',
+        2 => 'VIP会員',
+    ];
 }
+
